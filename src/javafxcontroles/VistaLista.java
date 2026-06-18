@@ -9,7 +9,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
+// Ejemplo Observable list
 public class VistaLista extends Application {
 
     @Override
