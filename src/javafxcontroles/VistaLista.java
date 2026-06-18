@@ -19,9 +19,9 @@ public class VistaLista extends Application {
             raiz.setPadding(new Insets(40));
             raiz.setSpacing(10);
 
-            Label lbSelecciona = new Label("Selecciona los complementos:");
+            Label lbSelecciona = new Label("Selecciona los Artistas:");
             ListView<String> lvComplementos = new ListView<>(FXCollections.observableArrayList(
-                    "Pendientes", "Collar", "Sombrero", "Felpa", "Bolso de mano"));
+                    "Ariana Grande", "Dua Lipa", "Olivia Rodrigo", "Sabrina Carpenter", "Madison Beer"));
             lvComplementos.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 
             raiz.getChildren().addAll(lbSelecciona, lvComplementos);
